@@ -9,12 +9,12 @@ with open('guacamole_compose/VERSION', 'r') as f:
 setuptools.setup(
     name="guacamole-compose",
     version=version,
-    author="John Burt",
-    author_email="johnburt.jab@gmail.com",
+    author="John Burt; Cybertrol Engineering",
+    author_email="support@cybertrol.com",
     description="Easy deployment of Apache Guacamole.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/alphabet5/guacamole-compose",
+    url="https://github.com/cybertrol-engineering/CE.Docker.guacamole-compose",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
