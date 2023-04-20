@@ -27,6 +27,12 @@ Tested on Ubuntu 20.04 LTS
 - python3 (3.9)
 - pip
 
+
+# Run This command before installing guacamole-compose if you get an error "cannot uninstall PyYAML:
+
+sudo python3.9 -m pip install --upgrade pyyaml --ignore-installed
+
+
 ```bash
 sudo apt update && \
     sudo apt upgrade -y && \
