@@ -78,6 +78,13 @@ Python Packages
 sudo python3.9 -m pip install guacamole-compose
 ```
 
+If you get the following error:
+
+ERROR: Cannot uninstall 'PyYAML'. It is a distutils installed project and thus we cannot accurately determine which files belong to it which would lead to only a partial uninstall.
+Run this command before installing guacamole-compose
+
+sudo python3.9 -m pip install --upgrade pyyaml --ignore-installed
+
 Note: sudo is needed in the above command only if docker requires sudo privileges to be ran. This is the case by default when running docker.
 
 ## Usage
